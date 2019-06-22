@@ -3,7 +3,7 @@
 Retrieve RabbitMQ docker container:
 
 ```
-docker pull rabbitmq
+sudo docker pull rabbitmq
 ```
 
 Startup for RabbitMQ docker container:
