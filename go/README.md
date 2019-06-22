@@ -11,9 +11,9 @@ go get github.com/streadway/amqp
 Then build the send and receive apps:
 
 ```
-go build receive.go
+make receive
 
-go build send.go
+make send
 ```
 
 The send and receive Go code comes from the [Hello World - Getting Started](https://www.rabbitmq.com/tutorials/tutorial-one-go.html) section of the documentation on the RabbitMQ website.  Visit if you'd like a comprehensive explanation of what the code is doing.
@@ -21,13 +21,13 @@ The send and receive Go code comes from the [Hello World - Getting Started](http
 Execute the receive app.  It will watch for messages arriving in the queue:
 
 ```
-./receive
+./receive-app/receive
 ```
 
 Then, in a separate terminal, execute the send app to send a message:
 
 ```
-./send
+./send-app/send
 ```
 
 Each time you execute the send app, you should see an acknowledgment from the receive app.
