@@ -6,7 +6,7 @@ Info comes from [here](http://docs.celeryproject.org/en/latest/getting-started/f
 
 ## Description
 
-Celery is a task queue for Python.
+Celery is an [asynchronous task queue/job queue based on distributed message passing](http://www.celeryproject.org/).
 
 ## Setup
 
